@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# React JS Internship Work 🚀
+
+## 📌 About This Repository
+This repository contains all the tasks and projects that I completed during my **React JS Internship**.  
+The goal of this internship was to strengthen my understanding of **React fundamentals**, improve **hands-on coding skills**, and learn how to build **real-world frontend applications**.
+
+---
+
+## 📌 Note
+This repository is created for **learning and internship submission purposes**.
+>>>>>>> 4509bb9000b616a9a3dbb6f9d05a27a7b8640481
