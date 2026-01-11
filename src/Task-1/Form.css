@@ -1,0 +1,80 @@
+/* Form.jsx Css */
+
+h1 {
+    display: block;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    padding-left: 15px;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 15px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+input[type="password"] {
+     display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* Profile.jsx Css */
+p {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.Form {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 35%;
+    box-shadow: 3px 5px 10px;
+}
+
+button.back {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 6%;
+}
