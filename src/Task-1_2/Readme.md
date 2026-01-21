@@ -1,15 +1,24 @@
-# React JS Internship – Task 1
+# React JS Internship – Task 1 & 2
 
-This repository contains **Task-1** of my React.js internship work.  
-The task focuses on creating a **Sign Up Form** with validation and navigating user data to a **Profile page** using React Router.
+This repository contains **Task-1&2** of my React.js internship work.  
+The task focuses on creating a **Sign Up Form** with validation and navigating user data to a **Profile page** using React Router and add Slider Carousel.
 
 ---
 
-## Work_Demo :
+## Work_Demo : Task-1
 
 ![Sign-Up Form](Sign-Up_Form.png)
 
 ![Profile Page](Profile_Page.png)
+
+---
+
+## Work_Demo : Task-2
+Slider Using MUI(Material UI) And Carousel
+
+![Using Mui- Slider](Slider.png)
+
+---
 
 ## 📌 Task Overview
 
@@ -27,6 +36,8 @@ The task focuses on creating a **Sign Up Form** with validation and navigating u
 - JavaScript (ES6)
 - React Router DOM
 - CSS
+- MUI
+- Carousel
 
 ---
 
@@ -35,6 +46,12 @@ Before running the project, install the required dependency:
 
 ```bash
 npm i react-router-dom
+```
+```bash
+npm i @mui/material @emotion/react @emotion/styled
+```
+```bash
+npm i react-material-ui-carousel
 ```
 
 ---
@@ -46,6 +63,8 @@ Task-1/
 ├── Form.jsx # Sign Up form with validation
 ├── Profile.jsx # Displays submitted user data
 ├── Form.css # Styling for form and profile page
+├── Slider.jsx # Slider task 
+
 ```
 
 ---
