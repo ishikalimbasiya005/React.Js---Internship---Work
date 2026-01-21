@@ -36,14 +36,14 @@ const Form = () => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); //Data not show in url and page not re-render
 
         if (emailErr) return;
         if (passErr) return; 
         if (cpassErr) return; 
 
         navigate("/Profile" , {
-            state : {props:formData}
+            state : {props:formData} // Data store in state variable 
         });
     }
 
@@ -80,14 +80,12 @@ const Form = () => {
             }
         }
 
-        setFormData({ ...formData, [name]: value });
+        setFormData({ ...formData, [name]: value }); // Not delete another data So, use ...formData
     }
 
     return(
         <div>
-            <h1>Sign Up Form</h1>
-            <hr/>
-            <br />
+            <h2>Sign Up Form</h2>
 
             <form onSubmit={handleSubmit}>
                 <label>First Name:</label>

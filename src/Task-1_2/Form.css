@@ -1,10 +1,19 @@
 /* Form.jsx Css */
-
 h1 {
     display: block;
+    font-size: 30px;
     text-align: center;
     color: red;
+    margin: 30px;
+}
+
+
+h2 {
+    display: block;
     font-size: 30px;
+    text-align: center;
+    color: #ae50ff;
+    margin: 30px;
 }
 
 label {
@@ -78,3 +87,4 @@ button.back {
     margin-top: 15px;
     width: 6%;
 }
+
